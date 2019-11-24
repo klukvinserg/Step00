@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>forms</title>
+    </head>
+    <body>
+        <a href="index.html">Index</a>
+        <form 
+        action="https://formspree.io/klukvin@ukr.net"
+        method="POST">
+          <label>
+            User <input type="text" name="user-name">
+          </label>
+            <br>
+             <br>
+            <label for="user-email">Електронна адреса</label>
+            <input id="user-email" type="email" name="user-email">
+            <br>
+            <label>Sex</label>
+            <label>
+               <input type="radio" name="gender" value="male"> Man
+            </label>
+            <label>
+               <input type="radio" name="gender" value="famale"> Women
+            </label>
+            <label>
+               <input type="radio" name="gender" value="other"> Other
+            </label>
+            <br>
+            <input type="submit" value="send">
+        </form>
+    </body>
+</html>
